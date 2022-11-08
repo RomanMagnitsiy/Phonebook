@@ -1,0 +1,31 @@
+.search-bar {
+    display: flex;
+    height: 13%;
+    border: solid 1px black;
+    justify-content: center;
+    align-items: center;
+   
+    
+    &__phone-img {
+        height: 40%;
+        margin-left: 30px;
+        margin-right: 10px;
+    }
+    &__input {
+        height: 40%;
+        width: 240px;
+        margin: auto 30px auto -40px;
+        border: solid 1px #444444;
+        border-radius: 20px;
+        padding-left:40px;
+        font-size: 20px;
+        justify-content: center;
+    }
+    &__search-img{
+        height: 30%;
+        margin-left: 20px;
+        border-radius: 7px;
+        background-color: #444444;
+        z-index: 1;
+    }
+}

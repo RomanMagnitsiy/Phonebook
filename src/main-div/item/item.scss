@@ -1,0 +1,55 @@
+.item {
+  display: flex;
+  width: 100%;
+  height: 22%;
+  border-bottom: solid 1px #444444;
+  align-items: center;
+  justify-content: left;
+  &__icon {
+    height: 80%;
+    padding: 2px;
+    border: solid 1px #444444;
+    margin-left: 15px;
+  }
+  &__text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    width: 64%;
+  }
+  &__text-name {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 22px;
+    margin-bottom: 5px;
+  }
+  &__text-phone {
+    font-size: 18px;
+  }
+  &__btn {
+    display: flex;
+    height: 70%;
+    width: 10%;
+    flex-direction: column;
+  }
+  &__btn-delete {
+    height: auto;
+    border: 0;
+    padding: 0;
+    background-color: rgba(255, 255, 255, 0);
+    margin-bottom: 15px;
+  }
+  &__btn-delete-icon {
+    font-size: 17px;
+  }
+  &__btn-favorite {
+    height: auto;
+    border: 0;
+    padding: 0;
+    background-color: rgba(255, 255, 255, 0);
+  }
+  &__btn-favorite-icon {
+    font-size: 16px;
+  }
+}

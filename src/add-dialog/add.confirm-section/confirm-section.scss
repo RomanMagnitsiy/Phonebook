@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'Roboto-Medium';
+    src: url('/dist/fonts/Roboto-Medium.ttf');
+    font-style: normal;
+    font-weight: normal;
+  }
+
+.confirm-section{
+    display: flex;
+    height: 16%;
+    border: solid 1px black;
+  
+
+    &__btn{
+        height: 100%;
+        width: 100%;
+        font-size: 20px;
+        font-family: 'Roboto-Medium';
+        background-color: white;
+        border: none;
+        transition: 0.1s all ease-in-out;
+
+        &:hover {
+            background-color: #e6e6e6;
+        }
+    }
+}

@@ -1,0 +1,20 @@
+.head-section {
+    display: flex  ;
+    height: 13%;
+    border: solid 1px black;
+    justify-content: left;
+    align-items: center;
+   
+    
+    &__phone-img {
+        height: 40%;
+        margin-left: 35px;
+        margin-right: 10px;
+    }
+    &__contact-text {
+        font-size: 20px;
+        color: #4d4d4d;
+        margin-left: 15px;
+        margin-right: 54px;
+    }
+}
